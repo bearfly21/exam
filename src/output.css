@@ -613,6 +613,10 @@ video {
   margin-top: 100px;
 }
 
+.mt-\[15px\] {
+  margin-top: 15px;
+}
+
 .flex {
   display: flex;
 }
@@ -815,6 +819,11 @@ video {
   color: ;
 }
 
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity, 1));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -830,6 +839,11 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .lg\:flex {
     display: flex;
   }
